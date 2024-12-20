@@ -202,3 +202,147 @@ The Avicenna project bridges biosignal data analysis and conversational AI to pr
 3. Python Software Foundation, "Python 3.11 Documentation," https://docs.python.org/3/.
 4. Streamlit, "Streamlit Framework Documentation," https://docs.streamlit.io/.
 5. Pyshimmer, “Shimmer unofficial API,” https://github.com/seemoo-lab/pyshimmer.
+
+
+# Avicenna: AI Chatbot for Biosignal Analysis
+
+Welcome to **Avicenna**, an advanced conversational AI chatbot integrated with biosignal data analysis. This platform is designed to assist users by analyzing physiological data such as ECG, EMG, and GSR/PPG, and providing personalized insights to help manage stress, cognitive load, and emotional well-being.
+
+## **Features**
+
+### **1. Conversational AI**
+
+- Named **Avicenna**, the chatbot leverages advanced language models like Ollama's Mistral and LLaMA 3.2.
+- Provides personalized advice based on user input and biosignal analysis results.
+- Supports Chain-of-Thought (CoT) reasoning for accurate responses.
+
+### **2. Biosignal Data Integration**
+
+- Analyzes data from biosignals such as:
+  - **ECG (Electrocardiogram):** Stress level evaluation.
+  - **EMG (Electromyography):** Muscle activation analysis.
+  - **GSR/PPG (Galvanic Skin Response and Photoplethysmogram):** Emotional state insights.
+
+### **3. Results and History Management**
+
+- Saves chatbot interactions as PDF files for future reference.
+- Integrates with the Streamlit dashboard for result visualization.
+
+### **4. Modular Design**
+
+- Easy to extend with additional biosignal analysis modules.
+- Supports both real-time and file-based data processing.
+
+---
+
+## **How It Works**
+
+1. **Data Analysis:**
+
+   - Users upload `.csv` files containing biosignal data.
+   - The system processes and analyzes the data, extracting insights like stress levels, emotional states, and muscle activation percentages.
+
+2. **Chatbot Interaction:**
+
+   - Users interact with Avicenna by asking questions or seeking advice.
+   - The chatbot uses analyzed data and models to provide step-by-step reasoning and actionable recommendations.
+
+3. **Dashboard Integration:**
+
+   - Displays analysis results in a user-friendly Streamlit interface.
+   - Allows users to navigate between analysis pages and the chatbot seamlessly.
+
+---
+
+## **Installation**
+
+### Prerequisites
+
+- Python 3.10+
+- Required libraries (listed in `requirements.txt`)
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd chatbot
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the application:
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+## **Project Structure**
+
+```
+.
+├── app.py                # Main Streamlit application
+├── chatBot.py            # Chatbot implementation
+├── requirements.txt      # Python dependencies
+├── ecg/                  # ECG analysis module
+├── emg/                  # EMG analysis module
+├── gsr_ppg/              # GSR/PPG analysis module
+├── results/              # Directory for saving analysis results
+└── docs/                 # Documentation and user guides
+```
+
+---
+
+## **Usage**
+
+1. Launch the app and navigate to the desired page using the sidebar menu.
+2. Upload `.csv` files for ECG, EMG, or GSR/PPG data analysis.
+3. View the results on the respective pages or interact with the chatbot for detailed advice.
+4. Download chat history as a PDF for future reference.
+
+---
+
+## **Future Enhancements**
+
+- **Real-Time Data Integration:**
+  - Stream data directly from biosignal devices using PyShimmer.
+- **Additional Biosignal Support:**
+  - Include EEG (Electroencephalogram) for cognitive fatigue analysis.
+- **Multi-Language Support:**
+  - Extend chatbot capabilities to support multiple languages.
+
+---
+
+## **Contributing**
+
+We welcome contributions to enhance Avicenna! Feel free to open an issue or submit a pull request.
+
+---
+
+## **License**
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+---
+
+## **Contact**
+
+For questions or support, please contact:
+
+- **Name:** Mirshoir
+- **Email:** [mirshoir29\@gmail.com]
+
+---
+
+### **Acknowledgments**
+
+- Shimmer Devices for biosignal hardware support.
+- Ollama LLMs for powering the chatbot's advanced language capabilities.
+- The open-source community for tools and inspiration.
+
+
