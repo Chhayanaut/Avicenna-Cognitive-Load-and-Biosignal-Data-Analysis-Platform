@@ -26,6 +26,7 @@
 8. [Future Work](#future-work)
 9. [Conclusion](#conclusion)
 10. [References](#references)
+11. 
 
 ---
 
@@ -204,11 +205,25 @@ The Avicenna project bridges biosignal data analysis and conversational AI to pr
 5. Pyshimmer, “Shimmer unofficial API,” https://github.com/seemoo-lab/pyshimmer.
 
 
-# Avicenna: AI Chatbot for Biosignal Analysis
+# Avicenna: AI-Driven Chatbot for Biosignal Analysis
 
 Welcome to **Avicenna**, an advanced conversational AI chatbot integrated with biosignal data analysis. This platform is designed to assist users by analyzing physiological data such as ECG, EMG, and GSR/PPG, and providing personalized insights to help manage stress, cognitive load, and emotional well-being.
 
-## **Features**
+## **Contents**
+- [Features](#features)
+- [How It Works](#how-it-works)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Future Enhancements](#future-enhancements)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
+
+---
+
+## [Features](#features)
 
 ### **1. Conversational AI**
 
@@ -235,7 +250,7 @@ Welcome to **Avicenna**, an advanced conversational AI chatbot integrated with b
 
 ---
 
-## **How It Works**
+## [How It Works](#how-it-works)
 
 1. **Data Analysis:**
 
@@ -254,7 +269,7 @@ Welcome to **Avicenna**, an advanced conversational AI chatbot integrated with b
 
 ---
 
-## **Installation**
+## [Installation](#installation)
 
 ### Prerequisites
 
@@ -282,7 +297,7 @@ Welcome to **Avicenna**, an advanced conversational AI chatbot integrated with b
 
 ---
 
-## **Project Structure**
+## [Project Structure](#project-structure)
 
 ```
 .
@@ -298,7 +313,7 @@ Welcome to **Avicenna**, an advanced conversational AI chatbot integrated with b
 
 ---
 
-## **Usage**
+## [Usage](#usage)
 
 1. Launch the app and navigate to the desired page using the sidebar menu.
 2. Upload `.csv` files for ECG, EMG, or GSR/PPG data analysis.
@@ -307,7 +322,7 @@ Welcome to **Avicenna**, an advanced conversational AI chatbot integrated with b
 
 ---
 
-## **Future Enhancements**
+## [Future Enhancements](#future-enhancements)
 
 - **Real-Time Data Integration:**
   - Stream data directly from biosignal devices using PyShimmer.
@@ -318,19 +333,19 @@ Welcome to **Avicenna**, an advanced conversational AI chatbot integrated with b
 
 ---
 
-## **Contributing**
+## [Contributing](#contributing)
 
 We welcome contributions to enhance Avicenna! Feel free to open an issue or submit a pull request.
 
 ---
 
-## **License**
+## [License](#license)
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
 
-## **Contact**
+## [Contact](#contact)
 
 For questions or support, please contact:
 
@@ -339,10 +354,9 @@ For questions or support, please contact:
 
 ---
 
-### **Acknowledgments**
+## [Acknowledgments](#acknowledgments)
 
 - Shimmer Devices for biosignal hardware support.
 - Ollama LLMs for powering the chatbot's advanced language capabilities.
 - The open-source community for tools and inspiration.
-
 
